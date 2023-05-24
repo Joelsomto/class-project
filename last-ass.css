@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ nav> ul{
+    display: flex;
+    overflow: hidden; 
+   align-items: center;
+   margin-left: 5px;
+   list-style-type: none;
+} 
+ul li a{
+    margin:10px;
+   
+    line-height: 30px;
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+div #bg{
+    position: relative;
+}
+#profile{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.name{
+    text-align: center;
+    margin-top: 100px;
+} 
+#logo{
+    height: auto;
+    width: 40px;
+    border-radius: 50%;
+   
+}
+#image{
+    height: 190vh;
+    margin-top: 70px;
+    background: linear-gradient(rgba(91, 91, 161, 0.4), rgba(115, 115, 181, 0.4)),url('section-bg.jpg') no-repeat center ;
+    /* width: 1000px; */
+    /* /* background-repeat: no-repeat; */
+    background-size: cover; 
+    overflow: hidden;
+}
+#about{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+#exp{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(231, 228, 228);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+ 
+   
+   #png, #png1{
+    position: absolute;
+    height: auto;
+    width: 50px;
+    margin-left: -2px;
+    padding-top: 10px;
+   } 
+  #column {
+    margin-left: 70px;
+    text-align: left;
+    width: 500px;
+    padding: 20px 10px 10px 10px;
+   
+  }
+  #column-main{
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  #png-2, #png2{
+    position: absolute;
+    height: auto;
+    width: 50px;
+    margin-left: 7px;
+    padding-top: 10px;
+  }
+  #column-2{
+    margin-left: 90px;
+    text-align: left;
+    width: 500px;
+    padding: 20px 10px 10px 10px;
+   
+  }
+  #column-main-2{
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 20px;
+  }
+  #down{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+  }
+  #download{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(108, 221, 108);
+    font-weight: bold;
+    color: white;
+  }
+  .port{
+    margin-top: 70px;
+  }
+  .port #port1{
+    text-align: center;
+  }
+
+  .contain {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+ .header{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+ }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* width: 100%; */
+  }
+  
+  #map {
+    flex: 1;
+   margin-top: 60px;
+   margin-left: 15px;
+   /* width: 70px; */
+   /* margin-right: 1000px; */
+  }
+  
+  .form {
+    flex: 1;
+    margin-top: 60px;
+    margin-left: 60px;
+    /* border: none; */
+  }
+  .contact{
+    display: inline-flex;
+    justify-content: space-between;
+  }
+ fieldset{
+  border: none;
+ }
+ #content{
+  padding-top: 20px;
+ }
+  #input-text1{
+  padding: 10px;
+  border: 2px solid #48de4d;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 550px;
+  }
+  #input-text2{
+    margin-top: 5px;
+  padding: 10px;
+  border: 2px solid #48de4d;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 550px;
+  }
+ 
+  input[type="radio"]{
+    margin: 7px;
+  }
+  textarea{
+    max-height: 300px;
+    max-width: 550px;
+      margin-top: 5px;
+      padding: 10px;
+      border: 2px solid #48de4d;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 550px;
+
+  }
+  #content-1 {
+    margin-top: 12px;
+  }
+  #submit{
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    padding-left: 17px ;
+    border-radius: 15px;
+    background-color: #48de4d;
+    color: white;
+    border: none;
+  }
+  #footer-image {
+    background: linear-gradient(rgba(91, 91, 161, 0.4), rgba(115, 115, 181, 0.4)), url('section-bg.jpg') no-repeat center;
+    background-size: cover;
+    margin-top: 70px;
+    overflow: hidden;
+    height: 75vh;
+}
+#table{
+  border: 3px solid white;
+}
+tr{
+  color: white;
+}
+#footer-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+th td{
+  padding-left: 10px;
+}
+#ex{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+  color: white;
+}
+td{
+  padding-left: 20px;
+}
